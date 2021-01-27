@@ -29,7 +29,46 @@
 #c = -3
 #print(float(c)) #This can convert an integer into a float
 
-# Basic Operators for arithmetic
+# Basic Operators for arithmetic -, +, *, ** (exponentiation), /, // (divide and produce integer), % remainder
+
+#print(2+2) #addition, obviously
+#print(2-2) #subtraction
+#print(2--5) #subtraction with a negative number, can also space out
+#print(2*3) #multiplication
+#print(2**4) #first number to the power of the second ^ does not equal exp in python
+#print(4/2) #gives a float because python defaults to floats
+#print(4//2) #gives an integer, so answer will always be rounded down
+#print(2/0) #gives error, of course
+#print(8 % 3) #gives the REMAINDER (2 in this example) after dividing the two floats
+
+# String manipulation
+
+single_quote_string = 'single quote'
+double_quote_string = "double quotes"
+
+#sentence1 = ' I "really" like tits'
+#sentence2 = ' I 'really' like tits' # This causes an error
+#print(sentence1)
+#print(sentence2)
+
+#sentence3 = 'I \'really\' like tits' # The \ before and after is a STRING DELIMITER so python will treat it the same as sentence1
+#print(sentence3)
+
+#paragraph = '''
+#This is a
+# paragraph
+#''' # This lets you write multi-line strings
+#print(paragraph)
+
+'''Bare triple quotes are also read as # (comments)'''
+'''They can also be multi-line,
+like this''' # But I still prefer this method.
+
+
+
+
+
+
 
 
 
